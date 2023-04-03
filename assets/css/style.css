@@ -1,0 +1,12 @@
+/* Importações*/
+@import "./global/reset.css";
+
+@import "./global/global.css";
+
+/*HEADER*/
+@import "./global/header.css";
+
+/*HOME*/
+@import "./home/introducao.css";
+
+/*ÁREA DE COMPRA*/

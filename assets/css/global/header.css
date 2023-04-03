@@ -1,0 +1,38 @@
+/* NAVBAR*/
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+}
+.cabecalho--topo {
+  display: flex;
+  flex-direction: row;
+  background-color: #e5f7d1;
+  padding: 10px 0 10px;
+}
+
+.cabecalho--topo-conteudo {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho--topo-botao-carrinho {
+  display: flex;
+  gap: 65px;
+}
+
+.cabecalho--nav {
+  background-color: #6c804b;
+}
+.cabecalho--nav-links {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+}
