@@ -1,0 +1,83 @@
+/* INTRODUÇÃO DA PÁGINA*/
+.introducao {
+  display: grid;
+  gap: 64px;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  max-width: 1200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* INTRODUÇÃO - TEXTO DA COLUNA 1*/
+.introducao-conteudo {
+  align-self: flex-end;
+  padding-bottom: 30px;
+  grid-column: 1;
+}
+
+.introducao h1 {
+  font-family: "Arial";
+  font-size: 62px;
+  line-height: 1.125;
+  color: #abb868;
+  padding-bottom: 30px;
+}
+
+/* INTRODUÇÃO - LOGO NA COLUNA 1 */
+.introducao-conteudo img {
+  padding-bottom: 10%;
+}
+/* INTRODUÇÃO - PARAGRAFO NA COLUNA 1 */
+.introducao-bg p {
+  color: #6c804b;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* COR DADA NA INTRUÇÃO E NO PARAGRAFO */
+.introducao-conteudo span {
+  color: #faae58;
+}
+
+/* INTRODUÇÃO - FORMATAÇÃO DE CONTEUDO NA COLUNA 2 */
+.introducao .nossa-loja {
+  display: flex;
+  flex-direction: column;
+}
+
+.introducao .nossa-loja h2,
+.introducao .nossa-loja a {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #6c804b;
+  font-family: Arial;
+}
+
+.introducao a {
+  position: relative;
+}
+.introducao .nossa-loja a:after {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: #abb868;
+  position: absolute;
+}
+.introducao .nossa-loja a:hover::after {
+  position: absolute;
+  width: 100%;
+  transition: 0.3s;
+}
+
+/* IMAGEM NA INTRODUÇÃO - COLUNA  2 */
+.introducao .nossa-loja img {
+  border-radius: 4px;
+}
