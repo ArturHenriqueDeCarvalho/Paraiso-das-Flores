@@ -3,6 +3,10 @@ main {
   margin: 0 auto 0 auto;
 }
 
+span {
+  color: #faae58;
+}
+
 .principal--conteudo {
   display: flex;
   flex-direction: row;
@@ -18,6 +22,24 @@ main {
   gap: 15px;
 }
 
+.principal--conteudo-texto h1 {
+  font-family: "Robot Slab";
+  font-size: 88px;
+  line-height: 1.125;
+  color: #abb868;
+  padding-bottom: 40px;
+}
+
+.principal--conteudo-texto img {
+  width: 75%;
+  padding-bottom: 60px;
+}
+
+.principal--conteudo-texto p {
+  font-family: "Opens Sans";
+  font-size: 28px;
+}
+
 .principal--conteudo-imagem {
   width: 50%;
   text-align: right;
@@ -26,6 +48,19 @@ main {
   gap: 15px;
 }
 
+.principal--conteudo-imagem h2 {
+  font-family: Arial;
+  font-size: 40px;
+  color: #6c804b;
+}
+
+.principal--conteudo-imagem a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #6c804b;
+}
+
 .principal--conteudo-imagem img {
   width: 100%;
+  border-radius: 8px;
 }
