@@ -1,9 +1,4 @@
-body {
-  background-color: #eff7e4;
-}
-
 /* NAVBAR*/
-
 .cabecalho {
   display: flex;
   flex-direction: column;
@@ -32,7 +27,7 @@ body {
   font-size: 16px;
   background-color: #6c804b5d;
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+  padding: 5% 20% 7%;
 }
 
 .cabecalho--topo-botao-carrinho {
@@ -52,7 +47,6 @@ body {
   padding: 10px 0 10px 0;
 }
 .cabecalho--nav-links a {
-  color: #eff7e4;
   text-decoration: none;
   padding: 10%;
 }

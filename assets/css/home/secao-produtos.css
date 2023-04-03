@@ -1,0 +1,12 @@
+.flores-lista h2 {
+  margin: 40px 0 40px 0;
+}
+.flores-lista img {
+  border-radius: 16px;
+}
+.flores-lista ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 40px;
+}

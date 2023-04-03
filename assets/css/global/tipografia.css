@@ -1,0 +1,21 @@
+.font-1-xxl {
+  font-family: "Robot Slab";
+  font-size: 60px;
+  line-height: 1.125;
+}
+
+.font-1-xl {
+  font-family: "Robot Slab";
+  font-size: 28px;
+  line-height: 1.125;
+}
+
+.font-2-xl {
+  font-family: "Opens Sans";
+  font-size: 22px;
+}
+
+.font-2-l {
+  font-family: "Opens Sans";
+  font-size: 16px;
+}

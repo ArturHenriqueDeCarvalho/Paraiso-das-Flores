@@ -2,11 +2,12 @@
 @import "./global/reset.css";
 
 @import "./global/global.css";
-
-/*HEADER*/
-@import "./global/header.css";
-
+@import "./global/cores.css";
+@import "./global/tipografia.css";
+@import "./global/imagens.css";
 /*HOME*/
+@import "./utilidades/navbar.css";
 @import "./home/introducao.css";
+@import "./home/secao-produtos.css";
 
-/*ÁREA DE COMPRA*/
+@import "./home/flores-lista.css";
