@@ -1,0 +1,10 @@
+.botao-principal {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #6c804b;
+  background-color: #faae58;
+  padding: 16px 32px;
+  width: 30%;
+}

@@ -22,10 +22,9 @@
 .cabecalho--topo-pesquisar input {
   width: 150%;
   box-sizing: border-box;
-  border: 2px solid #faae58;
+  border: 2px solid #6c804b;
   border-radius: 8px;
   font-size: 16px;
-  background-color: #6c804b5d;
   background-repeat: no-repeat;
   padding: 5% 20% 7%;
 }
@@ -49,4 +48,16 @@
 .cabecalho--nav-links a {
   text-decoration: none;
   padding: 10%;
+}
+.cabecalho--nav-links a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0%;
+  background: #abb868;
+  position: absolute;
+}
+.cabecalho--nav-links a:hover::after {
+  width: 100%;
+  transition: 0.3s;
 }
