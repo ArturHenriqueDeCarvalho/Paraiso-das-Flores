@@ -1,0 +1,9 @@
+.dados-do-usuario {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagem-de-perfil img {
+  width: 150px;
+  border-radius: 50%;
+}

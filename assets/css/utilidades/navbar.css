@@ -6,7 +6,7 @@
 .cabecalho--topo {
   display: flex;
   flex-direction: row;
-  background-color: #e5f7d1;
+  background-color: n b;
   padding: 10px 0 10px;
 }
 
@@ -43,21 +43,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px 0 10px 0;
+  padding: 0.3% 0;
 }
 .cabecalho--nav-links a {
   text-decoration: none;
-  padding: 10%;
 }
 .cabecalho--nav-links a:after {
   content: "";
   display: block;
   height: 3px;
   width: 0%;
-  background: #abb868;
+  background: #faae58;
   position: absolute;
 }
 .cabecalho--nav-links a:hover::after {
-  width: 100%;
+  width: 1%;
   transition: 0.3s;
 }

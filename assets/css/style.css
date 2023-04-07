@@ -4,17 +4,13 @@
 @import "./global/global.css";
 @import "./global/cores.css";
 @import "./global/tipografia.css";
-@import "./global/imagens.css";
 /*HOME*/
 @import "./utilidades/navbar.css";
-@import "./home/introducao.css";
+@import "./home/tela-home.css";
 @import "./home/secao-produtos.css";
 
-@import "./home/flores-lista.css";
-
 /* ACESSO */
-
 @import "./acessos/tela-de-login.css";
-@import "./utilidades/botao.css";
 
-@import "./";
+/* PERFIL */
+@import "./acessos/tela-de-perfil.css";
