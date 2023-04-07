@@ -22,11 +22,11 @@
 .cabecalho--topo-pesquisar input {
   width: 150%;
   box-sizing: border-box;
-  border: 2px solid #6c804b;
+  border: 2px solid #000;
   border-radius: 8px;
   font-size: 16px;
   background-repeat: no-repeat;
-  padding: 5% 20% 7%;
+  padding: 5% 2% 7%;
 }
 
 .cabecalho--topo-botao-carrinho {
