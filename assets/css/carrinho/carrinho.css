@@ -1,0 +1,13 @@
+.tabela-de-compras {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #6c804b;
+  border-radius: 8px;
+}
+.tabela-anthurium-vermelho {
+  color: #abb868;
+  background-color: #e5f7d1;
+}
