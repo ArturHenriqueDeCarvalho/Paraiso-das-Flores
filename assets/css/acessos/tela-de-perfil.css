@@ -1,9 +1,61 @@
-.dados-do-usuario {
+.area-de-perfil {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+.area-de-perfil h1 {
+  padding: 15px;
+  font-size: 48px;
+  font-family: Arial;
+}
+
+.dados-do-usuario {
+  background-color: #abb868;
+  border-radius: 8px;
+  display: flex;
 }
 
 .imagem-de-perfil img {
   width: 150px;
   border-radius: 50%;
+  padding: 15px;
+}
+.saudacao-usuario {
+  font-size: 22px;
+  font-family: sans-serif;
+  padding-top: 100px;
+}
+.nome-do-usuario span {
+  font-size: 35px;
+  color: #e5f7d1;
+}
+
+.ferramentas img {
+  max-width: 50px;
+  padding-top: 20px;
+}
+
+.ferramentas a {
+  padding: 15px;
+  font-size: 30px;
+  color: #faae58;
+}
+.ferramentas li {
+  margin-top: 20px;
+  background-color: #6c804b;
+  border-radius: 16px;
+  padding-bottom: 10px;
+}
+
+.botao-sair {
+  border-radius: 16px;
+  padding: 5px 10px 5px 18px;
+  background-color: #faae58;
+  color: black;
+  font-size: 18x;
+}
+.botao-sair {
+  display: flex;
+  margin: 10px 0 0 450px;
+
+  width: 160px;
 }

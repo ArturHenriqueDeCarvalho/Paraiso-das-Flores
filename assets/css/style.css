@@ -9,6 +9,10 @@
 @import "./home/tela-home.css";
 @import "./home/secao-produtos.css";
 
+/* LISTA DE FLORES */
+
+@import "./lista-de-flores/primeira-flor.css";
+
 /* ACESSO */
 @import "./acessos/tela-de-login.css";
 
