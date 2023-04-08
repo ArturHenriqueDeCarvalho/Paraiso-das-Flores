@@ -47,6 +47,11 @@
   border-radius: 8px;
 }
 
-.img-lista {
-  max-width: 300px;
+.lista-de-prudutos img {
+  height: 300px;
+  width: 300px;
+}
+
+.flores-lista {
+  margin-top: 30px;
 }
