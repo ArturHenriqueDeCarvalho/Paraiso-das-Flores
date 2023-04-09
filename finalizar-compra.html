@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Acesse sua conta</title>
+  <meta name="description" content="A loja nasceu de uma paixão por Rosas">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="cabecalho">
+    <section class="cabecalho--topo">
+      <div class="cabecalho--topo-conteudo">
+        <a href="./index.html">
+          <img src="./assets/img/logo-principal.svg" alt="Logo" height="75">
+        </a>
+
+        <div class="cabecalho--topo-pesquisar">
+          <input type="text" name="search" placeholder="Pesquisar..." />
+        </div>
+
+        <div class="cabecalho--topo-botao-carrinho">
+          <div class="carrinho-de-compra">
+            <a href="./carrinho.html"><img src="./assets/img/cart.svg" alt="Carrinho" height="30"></a>
+          </div>
+          <div class="tela-do-perfil">
+            <a href="./tela-de-acesso.html"><img src="./assets/img/usuario.svg" alt="Usuario" height="30"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="cabecalho--nav">
+      <ul class="cabecalho--nav-links">
+        <li><a class="cor-0" href="./index.html#ancora-de-produtos">Produtos</a></li>
+        <li><a class="cor-0" href="#">Buquês</a></li>
+        <li><a class="cor-0" href="#">Arranjos</a></li>
+        <li><a class="cor-0" href="#">Cestas</a></li>
+        <li><a class="cor-0" href="#">Suporte</a></li>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <div class="finalizar-compra">
+        <h1 class="chamada-principal cor-1">FINALIZAR COMPRA</h1>
+      </div>
+      <div class="entrega-do-produto finalizar-compra">
+        <h2 class="cor-0">DATA DE ENTREGA DO PRODUTO</h2>
+        <input type="date" class="data-de-entrega" placeholder="SELECIONAR MELHOR DATA"></input>
+      </div>
+      <div class="endereco finalizar-compra">
+        <h2 class="cor-0">DIGITE SEU ENDEREÇO</h2>
+        <input type="search" placeholder="Endereço...">
+      </div>
+      <div class="forma-de-pagamento finalizar-compra">
+        <h2 class="cor-0">FORMA DE PAGAMENTO</h2>
+        <select class="selecao-forma-pagamento" title="Selecione a forma de pagamento">
+          <option value="">FORMA DE PAGAMENTO</option>
+          <option value="debito">DÉBITO</option>
+          <option value="credito">CRÉDITO</option>
+          <option value="pix">PIX</option>
+          <option value="boleto-bancario">BOLETO BANCÁRIO</option>
+        </select>
+      </div>
+      <div class="cupom-de-desconto finalizar-compra">
+        <h2 class="cor-0">CUPOM DE DESCONTO</h2>
+        <input type="text" placeholder="Aplicar cumpor de desconto">
+      </div>
+
+      <div class="total-do-pedido finalizar-compra">
+        <h2 class="cor-4">SUBTOTAL: R$00,00</h2>
+        <h2 class="cor-4">FRETE: R$00,00</h2>
+        <h2 class="cor-4">DESCONTO: R$00,00</h2>
+      </div>
+      <div class="botao-concluir-compra">
+        <a class="concluir-compra" href="./detalhes-da-compra.html" alt="Concluir Compra">
+          <h1>CONCLUIR COMPRA</h1>
+      </div>
+    </main>
+  </body>
+
+</html>

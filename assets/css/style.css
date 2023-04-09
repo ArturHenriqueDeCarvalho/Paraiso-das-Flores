@@ -11,7 +11,7 @@
 
 /* LISTA DE FLORES */
 
-@import "./lista-de-flores/anthurium-vermelho.css";
+@import "./lista-de-flores/tela-de-produto.css";
 
 /* ACESSO */
 @import "./acessos/tela-de-login.css";
@@ -21,3 +21,6 @@
 
 /* CARRINHO */
 @import "./carrinho/carrinho.css";
+
+/* FINALIZAR COMPRA */
+@import "./carrinho/finalizar-compras.css";

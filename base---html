@@ -21,15 +21,29 @@
         <a href="./index.html">
           <img src="./assets/img/logo-principal.svg" alt="Logo" height="75">
         </a>
+
+        <div class="cabecalho--topo-pesquisar">
+          <input type="text" name="search" placeholder="Pesquisar..." />
+        </div>
+
+        <div class="cabecalho--topo-botao-carrinho">
+          <div class="carrinho-de-compra">
+            <a href="./carrinho.html"><img src="./assets/img/cart.svg" alt="Carrinho" height="30"></a>
+          </div>
+          <div class="tela-do-perfil">
+            <a href="./tela-de-acesso.html"><img src="./assets/img/usuario.svg" alt="Usuario" height="30"></a>
+          </div>
+        </div>
       </div>
     </section>
     <nav class="cabecalho--nav">
       <ul class="cabecalho--nav-links">
+        <li><a class="cor-0" href="./index.html#ancora-de-produtos">Produtos</a></li>
+        <li><a class="cor-0" href="#">Buquês</a></li>
+        <li><a class="cor-0" href="#">Arranjos</a></li>
+        <li><a class="cor-0" href="#">Cestas</a></li>
+        <li><a class="cor-0" href="#">Suporte</a></li>
     </nav>
-    <main>
-
-
-    </main>
   </header>
 
   <body>

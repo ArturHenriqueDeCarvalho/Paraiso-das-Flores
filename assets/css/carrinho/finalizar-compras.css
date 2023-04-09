@@ -1,0 +1,47 @@
+.finalizar-compra {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 16px;
+}
+.finalizar-compra {
+  margin-top: 3%;
+  background-color: #6c804b;
+}
+.chamada-principal {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 48px;
+}
+.finalizar-compra h2 {
+  font-family: arial;
+  font-size: 22px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.selecao-forma-pagamento {
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+}
+
+.botao-concluir-compra {
+  background-color: #faae58;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 15px;
+  border-radius: 32px;
+  font-size: 16px;
+  margin-top: 25px;
+  width: 218px;
+}
+.botao-concluir-compra a {
+  font-size: 22px;
+  font-family: Arial;
+  color: #6c804b;
+}
