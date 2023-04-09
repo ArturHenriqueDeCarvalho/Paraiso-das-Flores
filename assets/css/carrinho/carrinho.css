@@ -3,11 +3,13 @@
   justify-content: space-between;
   font-size: 24px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #6c804b;
   border-radius: 8px;
 }
 .tabela-anthurium-vermelho {
+  margin-top: 70px;
   color: #abb868;
   background-color: #e5f7d1;
+  padding: 3px;
 }
