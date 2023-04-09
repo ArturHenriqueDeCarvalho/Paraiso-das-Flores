@@ -1,0 +1,30 @@
+.detalhes-do-pedido {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c804b;
+  margin-top: 45px;
+  border-radius: 16px;
+}
+.chamada-principal {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.informacoes-do-pedido {
+  align-items: center;
+  gap: 30px;
+  margin-top: 3%;
+  padding: 15px;
+  border-radius: 16px;
+  width: 80%;
+}
+.informacoes-do-pedido {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 45px;
+}
+.detalhes-do-pedido {
+  align-items: center;
+  padding: 10px;
+}

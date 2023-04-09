@@ -20,7 +20,10 @@
 @import "./acessos/tela-de-perfil.css";
 
 /* CARRINHO */
-@import "./carrinho/carrinho.css";
+@import "./compras/carrinho.css";
 
 /* FINALIZAR COMPRA */
-@import "./carrinho/finalizar-compras.css";
+@import "./compras/finalizar-compras.css";
+
+/* DETALHES DA COMPRA */
+@import "./compras/detalhes-do-pedido.css";
