@@ -27,3 +27,8 @@
 
 /* DETALHES DA COMPRA */
 @import "./compras/detalhes-do-pedido.css";
+@import "./compras/acompanhar-pedidp.css";
+
+/* SUPORTE */
+
+@import "./suporte/pagina-suporte.css";
