@@ -1,16 +1,17 @@
-.flores-lista h2 {
-  margin: 40px 0 40px 0;
-}
 .flores-lista img {
   border-radius: 16px;
-  Width:140px; 
-  Height:140px;
-  Top:2176px;
-  Left:3744px;
+  width: 140px;
+  height: 140px;
+  top: 2176px;
+  left: 3744px;
 }
 .flores-lista ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0 40px;
+}
+
+.sessao-de-produtos {
+  margin-top: 80px;
 }
